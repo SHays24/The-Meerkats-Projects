@@ -1,13 +1,13 @@
 .ArtBoard {
   position: relative;
-  width: 97.5vw;
+  width: 100%;
   background: url('static/art noticeboard.png');
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 69.8vw;
+  height: 69.8%;
   display: grid;
   gap: 1%;
-  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(1fr 1fr));
   grid-template-rows: masonry;
   padding-top: 24%;
   padding-left: 8%;
