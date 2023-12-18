@@ -22,10 +22,12 @@
   4px 4px darkgoldenrod;
   text-align: center;
 }
+
 .artImage {
   max-width: 98%;
   max-height: 98%;
 }
+
 .paper {
   border-top-right-radius: 3%;
   border-bottom-right-radius: 3%;
