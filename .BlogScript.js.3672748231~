@@ -1,0 +1,25 @@
+let blogListing;
+async function getListing() {
+  const response = await fetch("Posts/posts.json");
+  blogListing = await response.json();
+  loadPosts();
+}
+function getPageSearch() {
+  let params = new URL(document.location).searchParams;
+  let name = params.get("page");
+  console.log(name);
+}
+getListing();
+function loadPosts() {
+  for(var i = 0; i < blogListing.length; i++) {
+    console.log(blogListing.length);
+    fetch( blogListing[i].postURL )
+    .then( response => response.text() )
+    .then( (result) => {
+      console.log(i);
+      //console.log(blogListing[i].banner);
+      var content = marked.parse(result);
+      document.getElementById( 'my-container' ).innerHTML += `<div id='blogPreview'><img src="" style='width: 100%' class='sketchBorder'><div id='body'>` + content + "</div></div>";
+    });
+  }
+}

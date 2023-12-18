@@ -1,0 +1,56 @@
+.Description {
+  overflow-wrap: anywhere;
+}
+
+#listing {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media (orientation: landscape) {
+
+  .ItemCard {
+
+    background: #FFFF;
+    padding: 1%;
+    width: 23%;
+    margin: 1%;
+  }
+}
+
+@media (orientation: portrait) {
+  .ItemCard {
+    background: #FFFF;
+    padding: 1%;
+    width: 48%;
+    margin: 1%;
+  }
+}
+
+.ItemCard:hover {
+  background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0) 5px, rgba(0, 0, 0, 0.4) 5px, rgba(0, 0, 0, 0.4) 6px),
+  repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 5px, rgba(0, 0, 0, 0.4) 5px, rgba(0, 0, 0, 0.4) 6px), rgb(255, 255,255);
+}
+.Img0 {
+  width: 100%;
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px
+}
+.Img1 {
+  width: 100%;
+  border-radius: 15px 255px 15px 255px/255px 15px 255px 15px
+}
+
+.Name {
+  font-family: 'The Meerkats Font';
+}
+/*.Description {
+  font-family: 'Economica', monospace;
+}*/
+.Name, .Description, .Price {
+  background-color: white;
+  border-radius: 255px 50px 225px 50px/50px 225px 50px 255px;
+  border-color: black;
+  border-bottom-style: solid;
+  border-width: 1%;
+  padding-left: 3%;
+}
