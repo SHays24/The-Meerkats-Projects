@@ -1,7 +1,7 @@
 
 let itemListing;
 async function getListing() {
-  const response = await fetch("/json test.json");
+  const response = await fetch("json test.json");
   itemListing = await response.json();
   showItems();
 }

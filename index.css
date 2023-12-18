@@ -1,7 +1,7 @@
 .ArtBoard {
   position: relative;
   width: 97.5vw;
-  background: url('/static/art noticeboard.png');
+  background: url('static/art noticeboard.png');
   background-size: 100%;
   background-repeat: no-repeat;
   height: 69.8vw;
