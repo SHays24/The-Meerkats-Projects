@@ -1,0 +1,20 @@
+[
+  {
+    "ID": 0,
+    "banner": "static/backdrop.png",
+    "title": "Test <strong>Post</strong>",
+    "publDate": "25/11/2023",
+    "cat": "miscellaneous",
+    "postURL": "Posts/firstPost.md",
+    "description": "the first post"
+  },
+  {
+    "ID": 1,
+    "banner": "static/backdrop.png",
+    "title": "Test <strong>Post</strong>",
+    "publDate": "25/11/2023",
+    "cat": "miscellaneous",
+    "postURL": "Posts/test.md",
+    "description": "test post"
+  }
+]
