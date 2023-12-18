@@ -70,13 +70,13 @@ body::-webkit-scrollbar-thumb {
 
 .navbar {
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
   overflow: hidden;
   position: sticky;
   background: rgba(255, 255, 255, 0.4);
   top: 0;
-  width: 100%;
+  width: 90%;
 }
 .Tab {
   display: inline-block;
@@ -127,4 +127,5 @@ body::-webkit-scrollbar-thumb {
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 3;
+  width: 90%;
 }

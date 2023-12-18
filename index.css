@@ -1,8 +1,8 @@
 .ArtBoard {
   position: relative;
-  width: 100%;
+  width: 85%;
   background: url('static/art noticeboard.png');
-  background-size: 83%;
+  background-size: 85%;
   background-repeat: no-repeat;
   height: 59.2%;
   display: grid;
@@ -13,6 +13,7 @@
   padding-left: 8%;
   padding-right: 8%;
   padding-bottom: 24%;
+  margin: auto;
 }
 
 .heading {
