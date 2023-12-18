@@ -8,6 +8,11 @@
   display: grid;
   gap: 1%;
   grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  grid-template-rows: masonry;
+  padding-top: 24%;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 24%;
 }
 
 .heading {
