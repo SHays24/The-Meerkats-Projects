@@ -2,9 +2,9 @@
   position: relative;
   width: 100%;
   background: url('static/art noticeboard.png');
-  background-size: 100%;
+  background-size: 83%;
   background-repeat: no-repeat;
-  height: 69.8%;
+  height: 59.2%;
   display: grid;
   gap: 1%;
   grid-template-columns: repeat(auto-fill, minmax(32%, 1fr));
