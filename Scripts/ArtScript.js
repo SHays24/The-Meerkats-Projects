@@ -21,7 +21,7 @@ getPageSearch();
 function loadPhotos() {
   for (var i = 0; i < artListing.length; i=i+1) {
     document.getElementById( 'grid' ).innerHTML += `
-    <a href="art.html?phoyo=${artListing[i].ID}" class="item">
+    <a href="Art.html?art=${artListing[i].ID}" class="item">
       <img src="Art/${artListing[i].thumbnail}" class="photo" loading="lazy">
     </a>`;
   }
