@@ -4,15 +4,14 @@
   background: url('static/art noticeboard.png');
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 59.2%;
+  height: 59vw;
   display: grid;
   gap: 1%;
   grid-template-columns: repeat(auto-fill, minmax(32%, 1fr));
-  grid-template-rows: masonry;
   padding-top: 19%;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-bottom: 19%;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 6%;
   margin: auto;
 }
 
