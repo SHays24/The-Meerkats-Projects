@@ -7,7 +7,7 @@
   height: 59vw;
   display: grid;
   gap: 1%;
-  grid-template-columns: repeat(auto-fill, minmax(32%, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(23.63vw, 1fr));
   grid-template-rows: masonry;
   padding-top: 19.5%;
   padding-left: 6%;
@@ -30,7 +30,7 @@
 }
 
 .artImage {
-  width: 100%;
+  width: 22vw;
   max-height: 100%;
 }
 
