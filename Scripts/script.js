@@ -5,6 +5,7 @@
     </div>
 </div>
 */
+/*
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
@@ -26,7 +27,7 @@ async function getPageSearch() {
         showPhoto(name);
     }
 }
-/*getListing();*/
+//getListing();
 getPageSearch();
 function loadPhotos() {
     for (var i = 0; i < artListing.length; i=i+1) {
@@ -40,3 +41,4 @@ function loadPhotos() {
         </a>`;         //change /Photos to /Art later
     }
 }
+*/
