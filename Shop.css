@@ -46,7 +46,7 @@
 /*.Description {
   font-family: 'Economica', monospace;
 }*/
-.Name, .Description, .Price {
+.Name, .Description, .Price, .Buy {
   background-color: white;
   border-radius: 255px 50px 225px 50px/50px 225px 50px 255px;
   border-color: black;
