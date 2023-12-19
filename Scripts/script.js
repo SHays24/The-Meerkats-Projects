@@ -34,7 +34,7 @@ function loadPhotos() {
         <a href="art.html?photo=${artListing[i].ID}" style="">
         <div class="margin item">
             <div class="paper">
-            <img class="artImage" src="Photos/${artListing[id].thumbnail}">
+            <img class="artImage" src="Photos/${artListing[i].thumbnail}">
             </div>
         </div>
         </a>`;         //change /Photos to /Art later
