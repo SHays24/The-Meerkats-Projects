@@ -47,6 +47,7 @@
   font-family: 'Economica', monospace;
 }*/
 .Name, .Description, .Price, .Buy {
+  text-decoration: none;
   background-color: white;
   border-radius: 255px 50px 225px 50px/50px 225px 50px 255px;
   border-color: black;
