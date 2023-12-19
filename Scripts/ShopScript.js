@@ -30,6 +30,7 @@ function showItems() {
     <p class="Description">
     ${itemListing[i].ItemDescription}
     </p>
+    <a href="${itemListing[i].PurchaseLink}"><div class="sketchBorder${rnd%2}">Buy Me</div></a>
     </div>`
   }
 }
