@@ -54,7 +54,7 @@
 }
 
 [class*="item"] {
-  
+  z-index: -3;
   text-decoration: none;
   height: fit-content;
   filter: drop-shadow( 1.5px  0px 0px black) 
@@ -72,5 +72,5 @@
   transform: rotate(-12deg);
 }
 [class*="item"]:hover {
-  z-index: 2;
+  z-index: -1;
 }
