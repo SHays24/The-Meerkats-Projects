@@ -86,7 +86,7 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
+} 
 .Tab:hover {
   background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0) 5px, rgba(0, 0, 0, 0.4) 5px, rgba(0, 0, 0, 0.4) 6px),
     repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 5px, rgba(0, 0, 0, 0.4) 5px, rgba(0, 0, 0, 0.4) 6px), rgb(255, 255,255);
