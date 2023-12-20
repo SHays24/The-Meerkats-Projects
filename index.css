@@ -71,6 +71,9 @@
 .item2 {
   transform: rotate(-12deg);
 }
-.hover:hover:first-child {
-  z-index: -1;
+.hover:active {
+  z-index: -2;
+}
+.hover {
+  position: absolute;
 }
