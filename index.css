@@ -71,6 +71,6 @@
 .item2 {
   transform: rotate(-12deg);
 }
-[class*="item"]:hover {
+.hover:hover:first-child {
   z-index: -1;
 }
