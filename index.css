@@ -61,6 +61,7 @@
           drop-shadow(-1.5px  0px 0px black)
           drop-shadow( 0px  1.5px 0px black) 
           drop-shadow( 0px -1.5px 0px black);
+  position: absolute;
 }
 .item {
   transform: rotate(-8deg);
@@ -73,7 +74,4 @@
 }
 .hover:active {
   z-index: -2;
-}
-.hover {
-  position: absolute;
 }
