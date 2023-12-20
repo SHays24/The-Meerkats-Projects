@@ -7,7 +7,7 @@
   height: 59vw;
   display: grid;
   gap: 1%;
-  grid-template-columns: repeat(auto-fill, minmax(23.63vw, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(22vw, 1fr));
   grid-template-rows: masonry;
   padding-top: 19.5%;
   padding-left: 6%;
@@ -54,6 +54,7 @@
 }
 
 .item {
+  transform: rotate(-8deg);
   text-decoration: none;
   height: fit-content;
   filter: drop-shadow( 1.5px  0px 0px black) 
@@ -78,4 +79,7 @@
           drop-shadow(-1.5px  0px 0px black)
           drop-shadow( 0px  1.5px 0px black) 
           drop-shadow( 0px -1.5px 0px black);
+}
+[class*="item"]:hover {
+  z-index: 10;
 }
