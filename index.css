@@ -53,32 +53,23 @@
 
 }
 
-.item {
-  transform: rotate(-8deg);
+[class*="item"] {
+  
   text-decoration: none;
   height: fit-content;
   filter: drop-shadow( 1.5px  0px 0px black) 
           drop-shadow(-1.5px  0px 0px black)
           drop-shadow( 0px  1.5px 0px black) 
           drop-shadow( 0px -1.5px 0px black);
+}
+.item {
+  transform: rotate(-8deg);
 }
 .item1 {
   transform: rotate(9deg);
-  text-decoration: none;
-  height: fit-content;
-  filter: drop-shadow( 1.5px  0px 0px black) 
-          drop-shadow(-1.5px  0px 0px black)
-          drop-shadow( 0px  1.5px 0px black) 
-          drop-shadow( 0px -1.5px 0px black);
 }
 .item2 {
   transform: rotate(-12deg);
-  text-decoration: none;
-  height: fit-content;
-  filter: drop-shadow( 1.5px  0px 0px black) 
-          drop-shadow(-1.5px  0px 0px black)
-          drop-shadow( 0px  1.5px 0px black) 
-          drop-shadow( 0px -1.5px 0px black);
 }
 [class*="item"]:hover {
   z-index: 10;
